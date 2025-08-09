@@ -1,0 +1,290 @@
+08.09 5:41 PM
+Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas Patel - Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" data-aos="fade-down">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Vikas Patel</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-image">
+                    <div class="image-container">
+                        <svg width="200" height="200" viewBox="0 0 200 200" class="profile-placeholder">
+                            <circle cx="100" cy="100" r="90" fill="var(--primary-color)" opacity="0.1"/>
+                            <circle cx="100" cy="80" r="30" fill="var(--primary-color)" opacity="0.3"/>
+                            <path d="M50 150 Q100 120 150 150 L150 180 Q100 160 50 180 Z" fill="var(--primary-color)" opacity="0.3"/>
+                            <circle cx="100" cy="100" r="95" fill="none" stroke="var(--primary-color)" stroke-width="2" opacity="0.5"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1>Vikas Patel</h1>
+                    <p class="hero-subtitle">Aspiring Software Developer</p>
+                    <p class="hero-description">Passionate about web development and continuously learning new technologies to create impactful digital solutions.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#" class="btn btn-secondary" id="downloadResume">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="100">
+                <div class="about-text">
+                    <p>I am currently pursuing B.Tech in Information Technology (IT), 4th Semester at RGPV University. Coming from a rural village, I am a self-motivated learner with an unwavering determination to grow in the tech industry.</p>
+                    <p>My passion lies in web development, where I continuously explore new technologies and frameworks to build innovative solutions. I believe in the power of technology to transform lives and am committed to contributing meaningfully to this ever-evolving field.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>B.Tech IT Student</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <span>Web Developer</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Problem Solver</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="education-timeline" data-aos="fade-up" data-aos-delay="100">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech (Information Technology)</h3>
+                        <p class="institution">RGPV University</p>
+                        <p class="duration">4th Semester - Current</p>
+                        <p class="description">Pursuing Bachelor of Technology in Information Technology with focus on software development, data structures, and modern programming paradigms.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Education</h3>
+                        <p class="institution">Government School</p>
+                        <p class="duration">Completed</p>
+                        <p class="description">Completed schooling from Government School with strong foundation in mathematics and science subjects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills & Technologies</h2>
+            <div class="skills-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item learning">
+                            <i class="fab fa-react"></i>
+                            <span>React.js <small>(Learning)</small></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C Programming</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <div class="skill-item learning">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git <small>(Learning)</small></span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="projects-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-window-maximize"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Roller Blind Product Page</h3>
+                        <p>A modern, responsive product page for roller blinds featuring premium design, detailed specifications, and multiple variants. Built with focus on user experience and conversion optimization.</p>
+                        <div class="project-features">
+                            <span>Responsive Design</span>
+                            <span>Product Gallery</span>
+                            <span>Specifications</span>
+                            <span>Contact Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://readdy.link/preview/4f0acf4e-7761-4140-ace6-593e5fd8daa6/1174480/products/roller-blind" target="_blank" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card upcoming">
+                    <div class="project-image">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>App Volume Control</h3>
+                        <p>An Android-like volume control settings application that will provide intuitive audio management with modern UI design and smooth user interactions.</p>
+                        <div class="project-features">
+                            <span>Volume Management</span>
+                            <span>Modern UI</span>
+                            <span>Cross-platform</span>
+                            <span>User-friendly</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card upcoming">
+                    <div class="project-image">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>More Projects</h3>
+                        <p>Exciting new projects are in development. Stay tuned for innovative solutions and creative implementations showcasing the latest web technologies.</p>
+                        <div class="project-status">
+                            <span class="status-badge">In Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content" data-aos="fade-up" data-aos-delay="100">
+                <div class="contact-info">
+                    <p>I'm always open to discussing new opportunities, collaborations, or just having a chat about technology. Feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+919876543210">+91 9876543210</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:vikaspatel.dev@gmail.com">vikaspatel.dev@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Kanadiya Road, Indore, MP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Vikas Patel. All rights reserved.</p>
+            <div class="social-links">
+                <a href="mailto:vikaspatel.dev@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+919876543210"><i class="fas fa-phone"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
